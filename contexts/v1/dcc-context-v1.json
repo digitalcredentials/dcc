@@ -21,7 +21,7 @@
     "description": { "@id": "schema:description" },
     "image": { "@id": "schema:image", "@type": "@id" },
 
-    "awardedOnCompletionOf": { "@reverse": "schema:educationalCredentialAwarded" }
+    "awardedOnCompletionOf": { "@reverse": "schema:educationalCredentialAwarded" },
 
     "hasCredential": "schema:hasCredential",
     "Issuer": "obi:Issuer"
