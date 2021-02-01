@@ -22,6 +22,7 @@
     "endDate": "schema:endDate",
     "value": "schema:value",
     "educationalCredentialAwarded": "schema:educationalCredentialAwarded",
+    "hasCourseInstance": "schema:hasCourseInstance",
 
     "description": { "@id": "schema:description" },
     "image": { "@id": "schema:image", "@type": "@id" },
