@@ -27,10 +27,10 @@ See also (related specs):
 
 Requires Node.js 12+
 
-To install via NPM:
+To install via NPM, add the following to your `package.json` dependencies:
 
 ```
-npm install dcc-context
+"dcc-context": "digitalcredentials/dcc#rc-1.0.1"
 ```
 
 ## Usage
