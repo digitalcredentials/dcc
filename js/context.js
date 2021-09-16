@@ -34,6 +34,9 @@ module.exports = {
       '@reverse': 'http://schema.org/educationalCredentialAwarded'
     },
 
+    competencyRequired: 'http://schema.org/EducationalOccupationalCredential#competencyRequired',
+    credentialCategory: 'http://schema.org/EducationalOccupationalCredential#credentialCategory',
+
     hasCredential: 'http://schema.org/hasCredential',
     assertion: 'https://w3id.org/dcc/v1#assertion',
     Issuer: 'https://w3id.org/openbadges#Issuer',
