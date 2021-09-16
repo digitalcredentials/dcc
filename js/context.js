@@ -1,48 +1,48 @@
 'use strict';
 
 module.exports = {
-  "@context": {
-    "@protected": true,
-    "id": "@id",
-    "type": "@type",
-    "schema": "http://schema.org/",
-    "obi": "https://w3id.org/openbadges#",
-    "dcc": "https://w3id.org/dcc/v1#",
+  '@context': {
+    '@protected': true,
+    id: '@id',
+    type: '@type',
+    schema: 'http://schema.org/',
+    obi: 'https://w3id.org/openbadges#',
+    dcc: 'https://w3id.org/dcc/v1#',
 
-    "EducationalOccupationalCredential": "schema:EducationalOccupationalCredential",
-    "EducationalOccupationalProgram": "schema:EducationalOccupationalProgram",
-    "Course": "schema:Course",
-    "CourseInstance": "schema:CourseInstance",
-    "Person": "schema:Person",
-    "name": "schema:name",
-    "url": "schema:url",
-    "identifier": "schema:identifier",
-    "courseCode": "schema:courseCode",
-    "numberOfCredits": "schema:numberOfCredits",
-    "startDate": "schema:startDate",
-    "endDate": "schema:endDate",
-    "value": "schema:value",
-    "educationalCredentialAwarded": "schema:educationalCredentialAwarded",
-    "hasCourseInstance": "schema:hasCourseInstance",
+    EducationalOccupationalCredential: 'schema:EducationalOccupationalCredential',
+    EducationalOccupationalProgram: 'schema:EducationalOccupationalProgram',
+    Course: 'schema:Course',
+    CourseInstance: 'schema:CourseInstance',
+    Person: 'schema:Person',
+    name: 'schema:name',
+    url: 'schema:url',
+    identifier: 'schema:identifier',
+    courseCode: 'schema:courseCode',
+    numberOfCredits: 'schema:numberOfCredits',
+    startDate: 'schema:startDate',
+    endDate: 'schema:endDate',
+    value: 'schema:value',
+    educationalCredentialAwarded: 'schema:educationalCredentialAwarded',
+    hasCourseInstance: 'schema:hasCourseInstance',
 
-    "description": {
-      "@id": "schema:description"
+    description: {
+      '@id': 'schema:description'
     },
-    "image": {
-      "@id": "schema:image", "@type": "@id"
-    },
-
-    "awardedOnCompletionOf": {
-      "@reverse": "schema:educationalCredentialAwarded"
+    image: {
+      '@id': 'schema:image', '@type': '@id'
     },
 
-    "hasCredential": "schema:hasCredential",
-    "assertion": "dcc:assertion",
-    "Issuer": "obi:Issuer",
+    awardedOnCompletionOf: {
+      '@reverse': 'schema:educationalCredentialAwarded'
+    },
 
-    "ProgramCompletionCredential": "dcc:ProgramCompletionCredential",
-    "CourseCompletionCredential": "dcc:CourseCompletionCredential",
-    "LearningCredential": "dcc:LearningCredential",
-    "Assertion": "dcc:Assertion"
+    hasCredential: 'schema:hasCredential',
+    assertion: 'dcc:assertion',
+    Issuer: 'obi:Issuer',
+
+    ProgramCompletionCredential: 'dcc:ProgramCompletionCredential',
+    CourseCompletionCredential: 'dcc:CourseCompletionCredential',
+    LearningCredential: 'dcc:LearningCredential',
+    Assertion: 'dcc:Assertion'
   }
 };
