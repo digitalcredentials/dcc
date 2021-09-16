@@ -1,4 +1,6 @@
-{
+'use strict';
+
+module.exports = {
   "@context": {
     "@protected": true,
     "id": "@id",
@@ -6,6 +8,7 @@
     "schema": "http://schema.org/",
     "obi": "https://w3id.org/openbadges#",
     "dcc": "https://w3id.org/dcc/v1#",
+
     "EducationalOccupationalCredential": "schema:EducationalOccupationalCredential",
     "EducationalOccupationalProgram": "schema:EducationalOccupationalProgram",
     "Course": "schema:Course",
@@ -21,22 +24,25 @@
     "value": "schema:value",
     "educationalCredentialAwarded": "schema:educationalCredentialAwarded",
     "hasCourseInstance": "schema:hasCourseInstance",
+
     "description": {
       "@id": "schema:description"
     },
     "image": {
-      "@id": "schema:image",
-      "@type": "@id"
+      "@id": "schema:image", "@type": "@id"
     },
+
     "awardedOnCompletionOf": {
       "@reverse": "schema:educationalCredentialAwarded"
     },
+
     "hasCredential": "schema:hasCredential",
     "assertion": "dcc:assertion",
     "Issuer": "obi:Issuer",
+
     "ProgramCompletionCredential": "dcc:ProgramCompletionCredential",
     "CourseCompletionCredential": "dcc:CourseCompletionCredential",
     "LearningCredential": "dcc:LearningCredential",
     "Assertion": "dcc:Assertion"
   }
-}
+};
