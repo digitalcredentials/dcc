@@ -8,11 +8,14 @@ module.exports = {
 
     EducationalOccupationalCredential: 'http://schema.org/EducationalOccupationalCredential',
     EducationalOccupationalProgram: 'http://schema.org/EducationalOccupationalProgram',
+    CollegeOrUniversity: 'http://schema.org/CollegeOrUniversity',
+    PostalAddress: 'http://schema.org/PostalAddress',
     Course: 'http://schema.org/Course',
     CourseInstance: 'http://schema.org/CourseInstance',
     Person: 'http://schema.org/Person',
     name: 'http://schema.org/name',
     url: 'http://schema.org/url',
+    address: 'http://schema.org/address',
     identifier: 'http://schema.org/identifier',
     courseCode: 'http://schema.org/courseCode',
     numberOfCredits: 'http://schema.org/numberOfCredits',
@@ -28,6 +31,25 @@ module.exports = {
     image: {
       '@id': 'http://schema.org/image',
       '@type': '@id'
+    },
+
+    institution: {
+      '@id': 'http://schema.org/provider'
+    },
+    street: {
+      '@id': 'http://schema.org/streetAddress'
+    },
+    city: {
+      '@id': 'http://schema.org/addressLocality'
+    },
+    state: {
+      '@id': 'http://schema.org/addressRegion'
+    },
+    zip: {
+      '@id': 'http://schema.org/postalCode'
+    },
+    country: {
+      '@id': 'http://schema.org/addressCountry'
     },
 
     awardedOnCompletionOf: {
