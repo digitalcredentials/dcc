@@ -13,9 +13,15 @@ module.exports = {
     Course: 'http://schema.org/Course',
     CourseInstance: 'http://schema.org/CourseInstance',
     Person: 'http://schema.org/Person',
+    institution: 'http://schema.org/provider',
     name: 'http://schema.org/name',
     url: 'http://schema.org/url',
     address: 'http://schema.org/address',
+    street: 'http://schema.org/streetAddress',
+    city: 'http://schema.org/addressLocality',
+    state: 'http://schema.org/addressRegion',
+    zip: 'http://schema.org/postalCode',
+    country: 'http://schema.org/addressCountry',
     identifier: 'http://schema.org/identifier',
     courseCode: 'http://schema.org/courseCode',
     numberOfCredits: 'http://schema.org/numberOfCredits',
@@ -31,25 +37,6 @@ module.exports = {
     image: {
       '@id': 'http://schema.org/image',
       '@type': '@id'
-    },
-
-    institution: {
-      '@id': 'http://schema.org/provider'
-    },
-    street: {
-      '@id': 'http://schema.org/streetAddress'
-    },
-    city: {
-      '@id': 'http://schema.org/addressLocality'
-    },
-    state: {
-      '@id': 'http://schema.org/addressRegion'
-    },
-    zip: {
-      '@id': 'http://schema.org/postalCode'
-    },
-    country: {
-      '@id': 'http://schema.org/addressCountry'
     },
 
     awardedOnCompletionOf: {
