@@ -1,6 +1,6 @@
 {
   "name": "@digitalcredentials/dcc-context",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "DCC core JSON-LD context.",
   "main": "js/index.js",
   "module": "./dist/context.esm.js",
