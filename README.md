@@ -1,4 +1,4 @@
-# DCC Context and Schema Repo _(dcc-context)_
+# DCC Context and Schema Repo _(@digitalcredentials/dcc-context)_
 
 [![Build status](https://img.shields.io/github/workflow/status/digitalcredentials/dcc/Node.js%20CI)](https://github.com/digitalcredentials/dcc/actions?query=workflow%3A%22Node.js+CI%22)
 
@@ -30,23 +30,19 @@ Requires Node.js 12+
 To install via NPM, add the following to your `package.json` dependencies:
 
 ```
-"dcc-context": "digitalcredentials/dcc#rc-1.0.1"
+"@digitalcredentials/dcc-context": "^1.0.0"
 ```
 
 ## Usage
 
 ```js
-import dccCtx from 'dcc-context';
+import dccCtx from '@digitalcredentials/dcc-context';
 // or
-const dccCtx = require('dcc-context');
+const dccCtx = require('@digitalcredentials/dcc-context');
 const {contexts, constants, appContextMap} = dccCtx;
 
 dccCtx.CONTEXT_URL_V1
 // 'https://w3id.org/dcc/v1'
-
-// Codec term map value for CBOR-LD
-dccCtx.constants.CBORLD_CODEC_VALUE
-// 0x0..
 
 // get context data for a specific context
 dccCtx.CONTEXT_V1
