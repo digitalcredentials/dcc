@@ -9,8 +9,8 @@
 - [Background](#background)
 - [Install](#install)
 - [Usage](#usage)
+- [API](#api)
 - [Developing](#developing)
-- [Commercial Support](#commercial-support)
 - [License](#license)
 
 ## Background
